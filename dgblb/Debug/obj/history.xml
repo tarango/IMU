@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 5.3.0 mingw32 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -std=c11 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DDEBUG -D__FPU_USED -DSTM32F429ZI -DSTM32F429xx -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\cmsis_lib\include -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\FreeRTOS\include -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\FreeRTOS\portable -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\FreeRTOS\portable\GCC\ARM_CM4F -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\source\Kalman -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\source\i2c -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\source\crc -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\source\usart -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\utility -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\source\mpu -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\FreeRTOS -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\source\cpu -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\source -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\cmsis_boot -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\source\gpio -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\config -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\FreeRTOS\portable\GCC -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\cmsis -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2 -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\cmsis_lib -I..\..\..\..\..\Users\Md. Istiaq Mahbub\Desktop\sumon\bccp_2\source\hmc">
+      <target file="gpio.o" lastModified="1582bbd235a">
+         <source file="..\..\..\source\gpio\gpio.c" lastModified="157cc1e2c40"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1582bbd24eb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="crc.o" lastModified="1582bbd2487">
+         <source file="..\..\..\source\crc\crc.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="tasks.o" lastModified="1582bbd2432">
+         <source file="..\..\..\FreeRTOS\tasks.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="event_groups.o" lastModified="1582bbd2842">
+         <source file="..\..\..\FreeRTOS\event_groups.c" lastModified="157bf21d500"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1582bbd2009">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="croutine.o" lastModified="1582bbd2753">
+         <source file="..\..\..\FreeRTOS\croutine.c" lastModified="157bf21d500"/>
+      </target>
+      <target file="i2c.o" lastModified="1582bbd1e24">
+         <source file="..\..\..\source\i2c\i2c.c" lastModified="1582182b7b2"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1582bbd25e9">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="1582bbd27ce">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="queue.o" lastModified="1582bbd2715">
+         <source file="..\..\..\FreeRTOS\queue.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="km.o" lastModified="15839e52e7c">
+         <source file="..\..\..\source\Kalman\km.c" lastModified="15839e52a7e"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="1582bbd2272">
+         <source file="..\..\..\stm32f4xx_it.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="stm32f4xx_crc.o" lastModified="1582bbd206e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_crc.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1582bbd221d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="list.o" lastModified="1582bbd259e">
+         <source file="..\..\..\FreeRTOS\list.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="port.o" lastModified="1582bbd268c">
+         <source file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\port.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="timers.o" lastModified="1582bbd22e6">
+         <source file="..\..\..\FreeRTOS\timers.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="syscalls.o" lastModified="1582bbd263e">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="1582bbd28e4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="hmc5883l.o" lastModified="1582bbd1edd">
+         <source file="..\..\..\source\hmc\hmc5883l.c" lastModified="15825274475"/>
+      </target>
+      <target file="usart.o" lastModified="1582bbd29d2">
+         <source file="..\..\..\source\usart\usart.c" lastModified="157c2671cc0"/>
+      </target>
+      <target file="heap_1.o" lastModified="1582bbd2940">
+         <source file="..\..\..\FreeRTOS\portable\MemMang\heap_1.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="utility.o" lastModified="1582bbd1f31">
+         <source file="..\..\..\utility\utility.c" lastModified="157bf21dcd0"/>
+      </target>
+      <target file="mpu.o" lastModified="1582bbd2540">
+         <source file="..\..\..\source\mpu\mpu.c" lastModified="1582526221c"/>
+      </target>
+      <target file="main.o" lastModified="1584282f6d1">
+         <source file="..\..\..\main.c" lastModified="1584282d264"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1582bbd1fc4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="157bf21dcd0"/>
+      </target>
+   </processor>
+</history>

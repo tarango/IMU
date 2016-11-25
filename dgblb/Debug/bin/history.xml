@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -Map=dgblb.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\dgblb -TC:\CooCox\CoIDE\configuration\ProgramData\dgblb/arm-gcc-link.ld -g">
+      <target file="dgblb.elf" lastModified="1584282fd94">
+         <source file="..\obj\i2c.o" lastModified="1582bbd1e24"/>
+         <source file="..\obj\km.o" lastModified="15839e52e7c"/>
+         <source file="..\obj\hmc5883l.o" lastModified="1582bbd1edd"/>
+         <source file="..\obj\utility.o" lastModified="1582bbd1f31"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1582bbd1fc4"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1582bbd2009"/>
+         <source file="..\obj\stm32f4xx_crc.o" lastModified="1582bbd206e"/>
+         <source file="..\obj\main.o" lastModified="1584282f6d1"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1582bbd221d"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="1582bbd2272"/>
+         <source file="..\obj\timers.o" lastModified="1582bbd22e6"/>
+         <source file="..\obj\gpio.o" lastModified="1582bbd235a"/>
+         <source file="..\obj\tasks.o" lastModified="1582bbd2432"/>
+         <source file="..\obj\crc.o" lastModified="1582bbd2487"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1582bbd24eb"/>
+         <source file="..\obj\mpu.o" lastModified="1582bbd2540"/>
+         <source file="..\obj\list.o" lastModified="1582bbd259e"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1582bbd25e9"/>
+         <source file="..\obj\syscalls.o" lastModified="1582bbd263e"/>
+         <source file="..\obj\port.o" lastModified="1582bbd268c"/>
+         <source file="..\obj\queue.o" lastModified="1582bbd2715"/>
+         <source file="..\obj\croutine.o" lastModified="1582bbd2753"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="1582bbd27ce"/>
+         <source file="..\obj\event_groups.o" lastModified="1582bbd2842"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="1582bbd28e4"/>
+         <source file="..\obj\heap_1.o" lastModified="1582bbd2940"/>
+         <source file="..\obj\usart.o" lastModified="1582bbd29d2"/>
+      </target>
+   </processor>
+</history>
